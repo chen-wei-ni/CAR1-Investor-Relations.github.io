@@ -1,0 +1,157 @@
+﻿<html>
+<head>
+
+<title>Bxslide</title>
+
+<link href="jquery.bxslider.css" rel="stylesheet">
+
+<script src="jquery-1.12.3.min.js"></script> <!--min是壓縮檔 -->
+<script src="jquery.bxslider.min.js"></script>
+
+<script>
+	$('document').ready(function() {
+		$('.sA').bxSlider();
+		$('.sB').addClass('p0').bxSlider({
+			mode: 'fade'
+		});
+		$('.sC').bxSlider({
+			captions: true
+		});
+		
+		$('.sD').addClass('m0').bxSlider({
+			captions: true
+		});
+		
+		$('.sE').addClass('m0').bxSlider({
+			auto: true,
+			controls: false,
+			pause: 5000,
+			autoControls: true
+		});
+		
+		$('.sF').addClass('m0').bxSlider({
+			slideMargin: 6,
+			ticker: true, //跑馬燈模式
+			speed: 30000, //捲完一輪的時間
+			tickerHover: true //碰到就停
+		});
+		
+		$('.sG').addClass('m0').bxSlider({
+			pagerCustom: '.thumb_s',
+			controls: false //指標箭頭不見
+		});
+	});
+
+
+</script>
+
+<style>
+	body{
+		font-family:century gothic , 微軟正黑體;
+	}
+	
+	h1{
+		color:#9F353A;
+		text-align:center;
+		
+	}
+	
+	.p0{
+		padding:0;
+	}
+	
+	.m0{
+		margin:0;
+	}
+	
+	.sD .bx-caption{
+		bottom:0 !important ;
+	}
+	
+	.thumb_s{
+		text-align:center;
+	}
+</style>
+</head>
+
+<body>
+<h1>bxSlide</h1>
+<h2>eg1. 基本中的基本</h2>
+<ul class="sA">
+	<li><img src="images/001.jpg"></li>
+	<li><img src="images/002.jpg"></li>
+	<li><img src="images/003.jpg"></li>
+	<li><img src="images/004.jpg"></li>
+	<li><img src="images/005.jpg"></li>
+	<li><img src="images/006.jpg"></li>
+</ul>
+
+<h2>eg2. </h2>
+<ul class="sB">
+	<li><img src="images/001.jpg"></li>
+	<li><img src="images/002.jpg"></li>
+	<li><img src="images/003.jpg"></li>
+	<li><img src="images/004.jpg"></li>
+	<li><img src="images/005.jpg"></li>
+	<li><img src="images/006.jpg"></li>
+</ul>
+
+<h2>eg3. </h2>
+<ul class="sC">
+	<li><img src="images/001.jpg" title="櫻花"></li>
+	<li><img src="images/002.jpg" title="日本彼岸花"></li>
+	<li><img src="images/003.jpg" title="櫻花"></li>
+	<li><img src="images/004.jpg" title="賞花"></li>
+	<li><img src="images/005.jpg" title="都是櫻花"></li>
+	<li><img src="images/006.jpg" title="櫻花岸"></li>
+</ul>
+
+<h2>eg4. 修頭</h2>
+<ul class="sD">
+	<li><img src="images/001.jpg" title="櫻花"></li>
+	<li><img src="images/002.jpg" title="日本彼岸花"></li>
+	<li><img src="images/003.jpg" title="櫻花"></li>
+	<li><img src="images/004.jpg" title="賞花"></li>
+	<li><img src="images/005.jpg" title="都是櫻花"></li>
+	<li><img src="images/006.jpg" title="櫻花岸"></li>
+</ul>
+
+<h2>eg5. 自己會動</h2>
+<ul class="sE">
+	<li><img src="images/001.jpg" title="櫻花"></li>
+	<li><img src="images/002.jpg" title="日本彼岸花"></li>
+	<li><img src="images/003.jpg" title="櫻花"></li>
+	<li><img src="images/004.jpg" title="賞花"></li>
+	<li><img src="images/005.jpg" title="都是櫻花"></li>
+	<li><img src="images/006.jpg" title="櫻花岸"></li>
+</ul>
+
+<h2>eg6. 跑馬燈</h2>
+<ul class="sF">
+	<li><img src="images/001.jpg" title="櫻花"></li>
+	<li><img src="images/002.jpg" title="日本彼岸花"></li>
+	<li><img src="images/003.jpg" title="櫻花"></li>
+	<li><img src="images/004.jpg" title="賞花"></li>
+	<li><img src="images/005.jpg" title="都是櫻花"></li>
+	<li><img src="images/006.jpg" title="櫻花岸"></li>
+</ul>
+
+<h2>eg7. 縮圖</h2>
+<ul class="sG">
+	<li><img src="images/001.jpg" title="櫻花"></li>
+	<li><img src="images/002.jpg" title="日本彼岸花"></li>
+	<li><img src="images/003.jpg" title="櫻花"></li>
+	<li><img src="images/004.jpg" title="賞花"></li>
+	<li><img src="images/005.jpg" title="都是櫻花"></li>
+	<li><img src="images/006.jpg" title="櫻花岸"></li>
+</ul>
+<div class="thumb_s">
+	<a href="#" data-slide-index="0"><img src="images/thumb/001.jpg"></a>
+	<a href="#" data-slide-index="1"><img src="images/thumb/002.jpg"></a>
+	<a href="#" data-slide-index="2"><img src="images/thumb/003.jpg"></a>
+	<a href="#" data-slide-index="3"><img src="images/thumb/004.jpg"></a>
+	<a href="#" data-slide-index="4"><img src="images/thumb/005.jpg"></a>
+	<a href="#" data-slide-index="5"><img src="images/thumb/006.jpg"></a>
+</div>
+</body>
+</html>
