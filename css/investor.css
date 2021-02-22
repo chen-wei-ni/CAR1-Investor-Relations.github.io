@@ -182,6 +182,17 @@ body {
 		border: 3px solid #ecf9e8;
 		overflow:auto;
 	}
+	.desc select {
+		padding:2px;
+	}
+	.desc table {
+		margin-top:10px;
+		width:500px;
+	}
+	.desc table th {
+		background-color:#ececec;
+	}
+	/*底部*/
 	footer {
 		height:70px;
 		background-color:#52555b;
@@ -227,4 +238,91 @@ body {
 	  margin:0 auto;
 	  background-color:#efefef;
     }
+	#header{
+		background-color:#fff;
+	}
+	.home{
+		text-align:right;
+		margin:5px;
+	}
+	.home a img {
+		width:20px;
+	}
+	ul{
+		list-style:none;
+	}
+	.nav-float{
+		padding:0;
+		margin:0;
+		text-align:center;
+		background-color:#00a031;
+	}
+	.jq-clickBtn {
+	padding:10px 0;
+	}
+	.jq-clickBtn a {
+		text-decoration:none;
+		color:#fff;
+	}
+	.dropdownList {
+		background-color:#007020;
+		padding:0;
+	}
+	.dropdownList li {
+		padding:5px 0;
+	}
+	.photo ul {
+		padding:0;
+		margin:0;
+	}
+	.bx-wrapper{
+		margin: 0!important;
+	}
+	.menu {
+		display:none;
+	}
+	/*內容區*/
+	.detail {
+		background-color:#fff;
+	}
+	.arrow-title {
+		background-color:#00a031;
+		color:#fff;
+		padding: 5px;
+		
+	}
+	.arrow-title img {
+		width:15px;
+	}
+	.arrow-title span {
+		margin-left:5px;
+	}
+	.desc table{
+		margin:5px auto;
+	}
+	.desc table tr td{
+		padding:10px;
+	}
+	.desc table th {
+		background-color:#ececec;
+	}
+footer {
+	background-color:#52555b;
+	text-align:center;
+}
+	.links a {
+			text-decoration:none;
+			color:#fff;
+		}
+		.tel {
+		padding-top:3px;
+		color:#fff;
+		opacity:0.8;
+		font-size:0.9rem;
+		}
+		.iso {
+			color:#fff;
+			opacity:0.8;
+			font-size:0.9rem;
+		}
 }
