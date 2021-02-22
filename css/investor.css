@@ -1,4 +1,5 @@
-﻿body {
+﻿@media screen and (min-width:601px) and (max-width:88888px){
+body {
       position: relative;
       height: 100%;
 	  margin:0 auto;
@@ -51,7 +52,56 @@
 		text-decoration:none;
 		color:#2b2b2b;
 	}
+	/*選單*/
+#nav {
+	height:53px;
+	display:flex;
+}
+.nav-float{
+	display:flex;
+	z-index:2;
+	padding:0 0 0 20px;
+}
+	.jq-clickBtn {
+		list-style:none;
+		width:130px;
+		margin:0 20px 0 0;
+		text-align:center;
+	}
+	.jq-clickBtn:hover::after{
+		content:"";
+		width:60px;
+		height:5px;
+		background-color:#00a031;
+		display:block;
+		margin: 0 auto;
+		position:relative;
+		bottom:6px;
+		opacity:0.6;
+	}
 
+		.jq-clickBtn a {
+			display:block;
+			text-decoration:none;
+			color:#353535;
+			font-weight:bold;
+			font-size:1.1rem;
+		}
+	.dropdownList {
+		padding:0 2px;
+		background-color:#00a031;
+		text-align:left;
+	}
+	.dropdownList li {
+		list-style:none;	
+		padding:5px 0 5px 2px;
+		}
+		.dropdownList li a {
+			color:#fff;
+			font-size:0.98rem;
+			font-weight:normal;
+		}
+	/*輪播照片*/
 	.photo {
 		margin-top:15px;
 	}
@@ -114,7 +164,7 @@
 	}
 	.arrow-title {
 		display:inline-flex;
-		width:98%;
+		width:800px;
 		height:18px;
 		align-items:center;
 		background-color:#00a031;
@@ -127,9 +177,10 @@
 			margin-right:5px;
 		}
 	.desc {
-		width:98%;
+		width:800px;
 		margin-top:8px;
 		border: 3px solid #ecf9e8;
+		overflow:auto;
 	}
 	footer {
 		height:70px;
@@ -169,3 +220,11 @@
 		opacity:0.8;
 		font-size:0.9rem;
 	}
+}
+@media screen and (min-width:10px) and (max-width:600px){
+	body {
+      position: relative;
+	  margin:0 auto;
+	  background-color:#efefef;
+    }
+}
