@@ -79,10 +79,8 @@ body {
 		bottom:6px;
 		opacity:0.6;
 	}
-
 		.jq-clickBtn span {
 			display:block;
-			text-decoration:none;
 			color:#353535;
 			font-weight:bold;
 			font-size:1.1rem;
@@ -186,21 +184,54 @@ body {
 	}
 	.desc select {
 		padding:2px;
-		margin-bottom:10px;
+	}
+	/*A-2重大消息*/
+	.Bar {
+		display:flex;
+		margin:5px 0 10px 5px;
+	}
+	.numbers {
+		margin-left:20px;
 	}
 	.desc table {
 		margin:0 auto;
 		width:95%;
 	}
-	.desc table th {
-		background-color:#ececec;
-	}
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
 	}
+	.desc table tr td{
+		padding:5px;
+	}
 	.desc table tr td a{
+		text-decoration:none;
 		color:#444444;
 	}
+	.desc table tr td a:hover{
+		text-decoration:underline;
+	}
+	.desc table th {
+		background-color:#ececec;
+	}
+	/*頁次*/
+
+	ul.pagination {
+		padding:0;
+		text-align:center;
+	}
+	ul.pagination li {
+		display:inline;
+	}
+	ul.pagination li  a{
+		color:#444444;
+		text-decoration:none;
+		padding:2px 5px;
+	}
+	ul.pagination li  a:hover{
+		text-decoration:underline;
+		color:#00a031;
+	}
+
 	/*底部*/
 	footer {
 		height:70px;
@@ -254,12 +285,12 @@ body {
 		text-align:right;
 		margin:5px;
 	}
-	.home a {
-		text-decoration:none;
-		color:#52555b;
-	}
 	.home a img {
 		width:20px;
+	}
+	.home a {
+		text-decoration:none;
+		color:#2b2b2b;
 	}
 	ul{
 		list-style:none;
@@ -276,16 +307,18 @@ body {
 	.jq-clickBtn span {
 		color:#fff;
 	}
-	.dropdownList {
-		background-color:#007020;
-		padding:0;
-	}
+	
 	.dropdownList li {
 		padding:5px 0;
 	}
-	.dropdownList li a{
-		text-decoration:none;
+
+	.dropdownList li a {
 		color:#fff;
+		text-decoration:none;
+	}
+	.dropdownList {
+		background-color:#007020;
+		padding:0;
 	}
 	.photo ul {
 		padding:0;
@@ -317,10 +350,19 @@ body {
 		margin:5px auto;
 	}
 	.desc table tr td{
-		padding:10px;
+		padding:5px;
 	}
 	.desc table th {
 		background-color:#ececec;
+	}
+	/*A-2重大消息*/
+	.Bar {
+		display:flex;
+		margin:5px;
+	}
+	.numbers select {
+		width:60px;
+		padding:1px 0;
 	}
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
@@ -328,6 +370,21 @@ body {
 	.desc table tr td a{
 		color:#444444;
 	}
+	/*頁次*/
+
+	ul.pagination {
+		padding:0;
+		text-align:center;
+	}
+	ul.pagination li {
+		display:inline;
+	}
+	ul.pagination li  a{
+		color:#444444;
+		text-decoration:none;
+		padding:2px 5px;
+	}
+
 footer {
 	background-color:#52555b;
 	text-align:center;

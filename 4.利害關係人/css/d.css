@@ -79,10 +79,8 @@ body {
 		bottom:6px;
 		opacity:0.6;
 	}
-
 		.jq-clickBtn span {
 			display:block;
-			text-decoration:none;
 			color:#353535;
 			font-weight:bold;
 			font-size:1.1rem;
@@ -130,7 +128,7 @@ body {
 		.menu ul {
 			list-style:none;
 			margin:0;
-			padding:0 0 0 15px;
+			padding:0 0 0 12px;
 			font-size:1rem;
 			width:145px;
 		}
@@ -186,20 +184,44 @@ body {
 	}
 	.desc select {
 		padding:2px;
-		margin-bottom:10px;
 	}
+	
+	/*.Bar {
+		display:flex;
+		margin:5px 0 10px 5px;
+	}
+	.numbers {
+		margin-left:20px;
+	}*/
+	
+	/*b1*/
 	.desc table {
-		margin:0 auto;
-		width:95%;
-	}
-	.desc table th {
-		background-color:#ececec;
+		margin:10px auto;
+		width:300px;
+		text-align:center;
 	}
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
 	}
+	.desc table tr td{
+		padding:5px;
+	}
+	.desc table tr td:nth-child(1){
+		width:80px;
+	}
 	.desc table tr td a{
+		text-decoration:none;
 		color:#444444;
+	}
+	.desc table tr td a:hover{
+		text-decoration:underline;
+	}
+	.desc table th {
+		background-color:#ececec;
+	}
+	/*b-4*/
+	.years select {
+		width:150px;
 	}
 	/*底部*/
 	footer {
@@ -254,12 +276,12 @@ body {
 		text-align:right;
 		margin:5px;
 	}
-	.home a {
-		text-decoration:none;
-		color:#52555b;
-	}
 	.home a img {
 		width:20px;
+	}
+	.home a {
+		text-decoration:none;
+		color:#2b2b2b;
 	}
 	ul{
 		list-style:none;
@@ -283,9 +305,9 @@ body {
 	.dropdownList li {
 		padding:5px 0;
 	}
-	.dropdownList li a{
-		text-decoration:none;
+	.dropdownList li a {
 		color:#fff;
+		text-decoration:none;
 	}
 	.photo ul {
 		padding:0;
@@ -315,19 +337,30 @@ body {
 	}
 	.desc table{
 		margin:5px auto;
+		width:100%;
 	}
 	.desc table tr td{
-		padding:10px;
+		padding:5px;
 	}
 	.desc table th {
 		background-color:#ececec;
 	}
+	/*A-2重大消息
+	.Bar {
+		display:flex;
+		margin:5px;
+	}
+	.numbers select {
+		width:60px;
+		padding:1px 0;
+	}*/
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
 	}
 	.desc table tr td a{
 		color:#444444;
 	}
+
 footer {
 	background-color:#52555b;
 	text-align:center;
