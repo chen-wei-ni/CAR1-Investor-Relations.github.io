@@ -102,6 +102,7 @@ body {
 			font-size:0.98rem;
 			font-weight:normal;
 			text-decoration:none;
+			display:block;
 		}
 	/*輪播照片*/
 	.photo {
