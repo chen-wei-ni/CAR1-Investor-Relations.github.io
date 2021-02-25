@@ -309,6 +309,7 @@ body {
 	.dropdownList li a {
 		color:#fff;
 		text-decoration:none;
+		display:block;
 	}
 	.photo ul {
 		padding:0;
