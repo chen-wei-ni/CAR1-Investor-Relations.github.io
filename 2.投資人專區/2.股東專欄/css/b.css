@@ -262,7 +262,23 @@ body {
 	.desc select {
 		padding:2px;
 	}
-	
+	/*b-2*/
+	.board {
+		margin:10px auto;
+		width:95%;		
+	}
+	.board h3 {
+		background-color:#ececec;
+		padding:2px 5px;
+	}
+	.board p span {
+		padding-right:15px;
+	}
+	.board span a {
+		color:#00a031;
+		text-decoration:none;
+		font-weight:bold;
+	}
 	/*.Bar {
 		display:flex;
 		margin:5px 0 10px 5px;
@@ -270,8 +286,6 @@ body {
 	.numbers {
 		margin-left:20px;
 	}*/
-	
-	/*b1*/
 	.desc table {
 		margin:10px auto;
 		width:300px;
@@ -437,6 +451,22 @@ body {
 	}
 	.desc table tr td a{
 		color:#444444;
+	}
+		/*b-2*/
+	.board {
+		margin:10px auto;	
+	}
+	.board h3 {
+		background-color:#ececec;
+		padding:2px 5px;
+	}
+	.board p span {
+		padding-right:15px;
+	}
+	.board span a {
+		color:#00a031;
+		text-decoration:none;
+		font-weight:bold;
 	}
 
 footer {
