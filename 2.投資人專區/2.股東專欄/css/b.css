@@ -286,10 +286,16 @@ body {
 	.numbers {
 		margin-left:20px;
 	}*/
-	.desc table {
+	.annual {
 		margin:10px auto;
 		width:300px;
 		text-align:center;
+		overflow:auto;
+	}
+	.QA {
+		margin:10px auto;
+		overflow:auto;
+		width:800px;
 	}
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
@@ -313,6 +319,13 @@ body {
 	/*b-4*/
 	.years select {
 		width:150px;
+	}
+	.stock {
+		margin-top:10px;
+		overflow:auto;
+	}
+	 .stock table{
+		width:100%;
 	}
 	/*底部*/
 	footer {
@@ -421,6 +434,9 @@ body {
 		padding: 5px;
 		
 	}
+	.desc {
+		overflow:auto;
+	}
 	.arrow-title img {
 		width:15px;
 	}
@@ -467,6 +483,9 @@ body {
 		color:#00a031;
 		text-decoration:none;
 		font-weight:bold;
+	}
+	.stock{
+		overflow:auto;
 	}
 
 footer {

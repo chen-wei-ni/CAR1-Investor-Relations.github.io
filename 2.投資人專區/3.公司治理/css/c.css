@@ -251,10 +251,9 @@ body {
 	}*/
 	
 	/*b1*/
-	.desc table {
+	.rule {
 		margin:10px auto;
-		width:300px;
-		text-align:center;
+		width:90%;
 	}
 	.desc table tr:nth-child(odd){
 		background-color:#ecf9e8;
@@ -392,12 +391,19 @@ body {
 	.arrow-title span {
 		margin-left:5px;
 	}
+	.desc {
+		overflow:auto;
+	}
 	.desc table{
 		margin:5px auto;
 		width:100%;
 	}
 	.desc table tr td{
 		padding:5px;
+	}
+	.desc table tr td a{
+		text-decoration:none;
+		color:#444444;
 	}
 	.desc table th {
 		background-color:#ececec;

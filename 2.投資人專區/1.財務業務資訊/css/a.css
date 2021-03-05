@@ -358,6 +358,9 @@ body {
 	.arrow-title span {
 		margin-left:5px;
 	}
+	.desc {
+		overflow:auto;
+	}
 	.desc table{
 		margin:5px auto;
 	}

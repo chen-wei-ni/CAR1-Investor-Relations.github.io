@@ -63,3 +63,19 @@
 	.numbers {
 		margin-top:10px;
 	}
+	/*pages-btn*/
+	.pages-btn {
+		text-align:center;
+		padding-bottom:10px;
+	}
+	.pages-btn span {
+		padding-right:40px;
+	}
+	.pages-btn span a {
+		text-decoration:none;
+		color:#444444;
+	}
+	.pages-btn span a:hover{
+		color:#00a031;
+		text-decoration:underline;
+	}
